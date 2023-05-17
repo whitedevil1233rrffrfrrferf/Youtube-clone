@@ -1,0 +1,36 @@
+.Sidebarrow{
+    display:flex;
+    align-items:center;
+    padding-left:5px;
+    margin-bottom:20px;
+    padding:10px;
+}
+.Sidebarrow.selected i{
+    color:red;
+}
+.Sidebarrow:hover i{
+    color:red;
+}
+
+sidebarrow:hover sidebarow_title{
+    font-weight:bold;
+}
+.Sidebarrow:hover{
+    background-color:grey;
+    cursor: pointer;
+    }
+.Sidebarrow.selected{
+    background-color:grey;
+}
+.sidebarow_title{
+    flex:1;
+    margin-left:10px;
+    font-size:15px;
+    font-weight:500;
+}
+.sidebarow_title:hover{
+    font-weight:bold;
+}
+.Sidebarrow.selected .sidebarow_title{
+    font-weight:bold;
+}

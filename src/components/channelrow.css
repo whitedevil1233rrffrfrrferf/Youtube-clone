@@ -1,0 +1,26 @@
+.mainimage{
+    border-radius:50%;
+    height:120px;
+    width: 120px;;
+    margin: 10px 60px;
+}
+.channelrow{
+    display:flex;
+    align-items:center;
+    margin-left:20px;
+    width:70%;
+    }
+.channelrow_text{
+   display:flex;
+   flex-direction:column;
+}
+.channelrow_text p{
+   color:#606060;
+   font-size:small;
+}  
+.channelrow_text h4{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+ }  
+ 
